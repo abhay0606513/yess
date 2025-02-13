@@ -1,3 +1,26 @@
-git add style.css
-git commit -m "Added style.css"
-git push origin main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1 class="message">Hey, [sunshine] 💖</h1>
+        <p class="question">Will you be my Valentine? 😘</p>
+        <div class="gif-container">
+            <img src="https://media.giphy.com/media/xT0GqYwJY8mMQG7FZC/giphy.gif" alt="Valentine's Day GIF" class="gif">
+        </div>
+        <button onclick="showLove()">Yes, I will be your Valentine! 💕</button>
+    </div>
+
+    <script>
+        function showLove() {
+            alert('Yay! I\'m so happy! ❤️');
+        }
+    </script>
+</body>
+</html>
